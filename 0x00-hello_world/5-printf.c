@@ -3,13 +3,13 @@
 /**
  * main - Entry point
  *
- * Description : A C program that print with pritf function
+ * Description: A C program that print with pritf function.
  *
- * Return: Always  0 (success)
- */
+ * Return: Always  0 (Success)
+*/
 
-int main (void)
+int main(void)
 {
-	printf"with proper grammar, but the outcome is a piece of art,\n";
-		retune (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+		return (0);
 }
