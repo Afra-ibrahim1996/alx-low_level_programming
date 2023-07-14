@@ -10,8 +10,8 @@
  * Return: Alwayes 0 (Success)
 */
 
-int main(void);
 {
+int main(void);
 	int n, digit;
 
 	srand(time(0));
