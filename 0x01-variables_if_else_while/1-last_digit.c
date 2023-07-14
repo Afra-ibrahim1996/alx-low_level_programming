@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /*
  * main - Entry point
  *
@@ -8,7 +9,8 @@
  *              greater than, is zero and is not less that 6.
  * Return: Alwayes 0 (Success)
 */
-int main(void)
+
+int main(void);
 {
 	int n, digit;
 
