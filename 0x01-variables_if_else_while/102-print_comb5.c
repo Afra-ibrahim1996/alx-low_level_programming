@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	int firstDigit = 1, secondDigit;
+	int firstDigit = 0, secondDigit;
 
 	while (firstDigit <= 99)
 	{
