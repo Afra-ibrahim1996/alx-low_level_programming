@@ -3,6 +3,10 @@
 /**
  * time_table - print the 9 times table
  *
+ * Example table
+ * 0, 0, 0, 0, ..
+ * 0, 1, 2, 3, ..
+ *
 */
 
 void time_table(void)
