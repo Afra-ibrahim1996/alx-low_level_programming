@@ -2,6 +2,7 @@
 /**
  * time_table - print the 9 times table
  *
+ * Return: 0 Success
 */
 
 void time_table(void)
@@ -25,5 +26,6 @@ void time_table(void)
 			_putchar((prod % 10) + 48);
 		}
 		_putchar('\n');
+		return (0);
 	}
 }
