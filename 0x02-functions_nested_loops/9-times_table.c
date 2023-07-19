@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * time_table - print the 9 times table
  *
@@ -18,11 +19,16 @@ void time_table(void)
 
 			prod = num * mult;
 
+			/*
+			 * put space if product is a single number
+			 * place the first digit if its two numbers
+			 */
 			if (prod <= 9)
 				_putchar(' ');
 			else
-				_putchar((prod / 10) + 48);
-			_putchar((prod % 10) + 48);
+				_putchar((prod / 10) + 48); /*get the first digit*/
+
+			_putchar((prod % 10) + 48); /*get the second digit*/
 		}
 		_putchar('\n');
 	}
