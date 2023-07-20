@@ -6,7 +6,7 @@
  * Return: 0 (success)
 */
 
-void more_numbers(void);
+void more_numbers(void)
 {
 	int num, row, caunt;
 
