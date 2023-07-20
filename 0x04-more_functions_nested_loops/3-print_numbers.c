@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * print_number - print numbers from 0 to 9
- *                follow by new line
+ * print_numbers - print 0 - 9
  *
- * Return: 0 Success
+ * Return: Alwats 0 (Success)
 */
 
-void print_number(void)
+void print_numbers(void)
 {
 	int num = 0;
 
