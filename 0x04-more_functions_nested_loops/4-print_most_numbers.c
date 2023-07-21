@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_must _number - prints the numbers, from 0 to 9, followed by a new line
- *                      Do not print 2 and 4
+ * print_most_number - print the numbers 0 - 9
+ *
  * Return: 0 (Success)
 */
+
 void print_most_numbers(void)
 {
 	int num;
