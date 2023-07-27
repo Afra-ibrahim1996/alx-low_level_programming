@@ -8,7 +8,7 @@
  * Return: nothing
 */
 
-void reverse_arry(int  *a, int n)
+void reverse_arry(int *a, int n)
 {
 	int i, j, t;
 
