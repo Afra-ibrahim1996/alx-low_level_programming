@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat: function concaten tow strings
+ * _strcat - function concaten tow strings
  *
  * @dest: pointer to destnation input
  * @src: pointer to source input
