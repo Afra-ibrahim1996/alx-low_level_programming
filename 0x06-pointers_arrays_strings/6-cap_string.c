@@ -14,7 +14,7 @@ char *cap_string(char *str)
 
 	while (str[index])
 	{
-		while (!(str[index] >= 97 && str[index] <= 122))
+		while (!(str[index] >= 'a' && str[index] <= 'z'))
 
 		if (str[index - 1] == ' ' ||
 			str[index - 1] == '\t' ||
