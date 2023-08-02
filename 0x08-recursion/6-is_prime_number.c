@@ -18,14 +18,14 @@ int is_prime_number(int n)
 
 /**
  * check_prime - check all the number greeter than n
- *
- * @n: int
  * @othrn: int
+ * @n: int
  * Return: int
 */
 
 int check_prime(int n, int othrn)
 {
+
 	if (othrn >= n && n > 1)
 		return (1);
 	else if (n % othrn == 0 || n <= 1)
