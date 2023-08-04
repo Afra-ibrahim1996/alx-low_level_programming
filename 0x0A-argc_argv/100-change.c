@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int i, leastcents = 0, money = atoi(argv[1]);
-        int cents[] = {25, 10, 5, 2, 1};
+	int cents[] = {25, 10, 5, 2, 1};
 
 	if (argc == 2)
 	{
