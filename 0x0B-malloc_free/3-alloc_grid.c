@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * alloc_grid - function that returns a pointer
@@ -27,7 +28,7 @@ int **alloc_grid(int width, int height)
 			{
 				while (i--)
 					free(tab[i]);
-				ftee(tab);
+				free(tab);
 				return (NULL);
 			}
 
