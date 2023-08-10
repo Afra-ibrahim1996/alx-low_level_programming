@@ -20,7 +20,8 @@ void _put(char *str)
 	}
 }
 
-/** _atoi - convert a string to int
+/**
+ * _atoi - convert a string to int
  * @s: string
  * Return: integer
 */
@@ -57,7 +58,7 @@ void print_int(unsigned long int n)
 
 	for (i = 0; n / divisor > 9; i++, divisor *= 10)
 	;
-	
+
 	for (; divisor >= 1; n %= divisor, divisor /= 10)
 	{
 		resp = n / divisor;
@@ -83,6 +84,6 @@ int main(int argc, char const *argv[])
 	}
 	print_int(_atoi(argv[1]) * _atoi(argv[2]));
 	_putchar('\n');
-	
+
 	return (0);
 }
