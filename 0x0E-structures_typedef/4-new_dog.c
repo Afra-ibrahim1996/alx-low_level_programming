@@ -1,5 +1,7 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
+
 
 /**
  * _strlen - length of string
