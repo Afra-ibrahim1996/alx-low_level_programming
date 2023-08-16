@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
 	if (argc != 2)
 		printf("Erorr\n"), exit(1);
-	b = atio(argv[1]);
+	b = atoi(argv[1]);
 	if (b < 0)
 		printf("Erorr\n"), exit(2);
 
