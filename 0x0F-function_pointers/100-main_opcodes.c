@@ -11,33 +11,23 @@
 
 int main(int argc, char **argv)
 {
-	int byte, index;
-	int (*address)(int, char **) = main;
-	unsigned char opcode;
+	char *p = (char *)main;
+	int b;
 
 	if (argc != 2)
 	{
 		printf("Erorr\n");
 		exit(1);
 	}
-	byte = atoi(argv[1]);
-	if (byte < 0)
+	b = atoi(argv[1]);
+	if (b < 0)
 	{
 		printf("Erorr\n");
 		exit(2);
 	}
+	while (b--)
+		printf("%02hhx%s", *p++, b ? " " : "\n");
 
-	for (;index = 0, index < byte; index++)
-	{
-		opcode = *(unsigned char *)address;
-		printf("%.2x", opcode);
 
-		if (index == byte - 1)
-			continue;
-		printf(" ");
-
-		address++;
-	}
-	printf("\n");
 	return (0);
 }
