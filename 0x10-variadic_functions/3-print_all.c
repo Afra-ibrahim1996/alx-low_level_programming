@@ -10,7 +10,7 @@
 
 void format_char(char *separator, va_list ap)
 {
-	printf("%s%c", separator, var_arg(ap, int));
+	printf("%s%c", separator, var_arg(ap, char));
 }
 
 /**
@@ -32,7 +32,7 @@ void format_int(char *separator, va_list ap)
 
 void format_float(char *separator, va_list ap)
 {
-	printf("%s%f", separator, var_arg(ap, double));
+	printf("%s%f", separator, var_arg(ap, float));
 }
 
 /**
@@ -46,7 +46,7 @@ void format_string(char *separator, va_list ap)
 	char *str = va_arg(ap, char *);
 
 	switch ((int)(!str))
-		case 1:
+	case 1:
 		str = "(nil)";
 
 	printf("%s%s", separator, var_arg(ap, str));
