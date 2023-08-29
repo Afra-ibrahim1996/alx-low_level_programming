@@ -15,7 +15,7 @@ listint_t *find_list_loop_fl(listint_t *head)
 	if (head == NULL)
 		return (NULL);
 
-	for (end = head->next; end != NULL; end = end_next)
+	for (end = head->next; end != NULL; end = end->next)
 	{
 		if (end == end->next)
 			return (end);
